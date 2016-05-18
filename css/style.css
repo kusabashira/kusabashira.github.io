@@ -1,0 +1,24 @@
+body {
+  padding: 5px 8px;
+}
+
+.title {
+  width: 200px;
+  padding-bottom: 1px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 8px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.2rem;
+}
+
+.links {
+  list-style: none;
+}
+
+.link a {
+  color: rgba(0, 0, 0, 1.0);
+  text-decoration: none;
+}
+.link a:hover {
+  text-decoration: underline;
+}
