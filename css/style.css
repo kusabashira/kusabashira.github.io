@@ -4,21 +4,24 @@ body {
 
 .title {
   width: 200px;
-  padding-bottom: 1px;
+  padding: 0 0 1px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  margin-bottom: 8px;
+  margin: 0 0 8px 0;
   color: rgba(0, 0, 0, 0.5);
   font-size: 1.2rem;
 }
 
-.links {
+.link-list {
   list-style: none;
 }
+.link-item + .link-item {
+  margin: 8px 0 0 0;
+}
 
-.link a {
+.link {
   color: rgba(0, 0, 0, 1.0);
   text-decoration: none;
 }
-.link a:hover {
+.link:hover {
   text-decoration: underline;
 }
